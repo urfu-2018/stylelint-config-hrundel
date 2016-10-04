@@ -8,12 +8,10 @@ npm install --save-dev stylelint@7.3.1 stylelint-config-hrundel
 
 ## Как использовать
 
-В `package.json` добавляем:
+Добавляем в корень файл __.stylelintrc.json__ с содержимым:
 
 ```json
 {
-  "extends": "stylelint-config-standard"
+  "extends": "stylelint-config-hrundel"
 }
-
 ```
-

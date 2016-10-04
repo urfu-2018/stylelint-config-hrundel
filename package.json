@@ -10,6 +10,6 @@
   },
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^7.3.1"
+    "stylelint": "7.3.1"
   }
 }

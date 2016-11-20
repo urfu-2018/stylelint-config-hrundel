@@ -13,7 +13,7 @@ module.exports = {
     "length-zero-no-unit": true,
 
     "unit-case": "lower",
-    "unit-no-unknown": true,
+    "unit-no-unknown": [true, { ignoreUnits: [ "fr" ] }],
 
     "value-keyword-case": "lower",
     "value-list-comma-space-after": "always",

@@ -13,7 +13,7 @@ module.exports = {
     "length-zero-no-unit": true,
 
     "unit-case": "lower",
-    "unit-no-unknown": [true, { ignoreUnits: [ "fr" ] }],
+    "unit-no-unknown": [true, { "ignoreUnits": [ "fr" ] }],
 
     "value-keyword-case": "lower",
     "value-list-comma-space-after": "always",
@@ -30,7 +30,6 @@ module.exports = {
     "declaration-colon-space-before": "never",
 
     "declaration-block-no-duplicate-properties": true,
-    "declaration-block-no-ignored-properties": true,
     "declaration-block-no-redundant-longhand-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
     "declaration-block-semicolon-newline-after": "always",
@@ -49,8 +48,8 @@ module.exports = {
 		"selector-combinator-space-after": "always",
 		"selector-combinator-space-before": "always",
     "selector-descendant-combinator-no-non-space": true,
-    "selector-no-id": true,
-    "selector-no-universal": true,
+    "selector-max-id": 0,
+    "selector-max-universal": 0,
     "selector-pseudo-class-no-unknown": true,
     "selector-pseudo-class-parentheses-space-inside": "never",
     "selector-pseudo-element-case": "lower",
@@ -59,11 +58,10 @@ module.exports = {
 
 		"selector-list-comma-newline-after": "always",
 
-    "rule-non-nested-empty-line-before": "always",
+    "rule-empty-line-before": ["always", { "except": "first-nested" }],
 
     "media-feature-name-case": "lower",
     "media-feature-name-no-unknown": true,
-    "media-feature-no-missing-punctuation": true,
 
     "at-rule-name-case": "lower",
     "at-rule-no-unknown": true,

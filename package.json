@@ -1,15 +1,15 @@
 {
   "version": "1.0.3",
   "name": "stylelint-config-hrundel",
-  "description": "URFU-2016 stylelint config",
+  "description": "URFU-2018 stylelint config",
   "author": "Anton Grishchenko <f0rmat1k@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:urfu-2016/stylelint-config-hrundel.git"
+    "url": "git@github.com:urfu-2018/stylelint-config-hrundel.git"
   },
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "7.3.1"
+    "stylelint": "^9.6.0"
   }
 }

@@ -3,7 +3,7 @@
 ## Как установить
 
 ```bash
-npm install --save-dev stylelint@7.3.1 stylelint-config-hrundel
+npm install --save-dev stylelint@9 stylelint-config-hrundel
 ```
 
 ## Как использовать

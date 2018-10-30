@@ -16,7 +16,8 @@ module.exports = {
     "unit-no-unknown": [true, { "ignoreUnits": [ "fr" ] }],
 
     "value-keyword-case": "lower",
-    "value-list-comma-space-after": "always",
+    "value-list-comma-space-after": "always-single-line",
+    "value-list-comma-newline-after": "always-multi-line",
     "value-list-max-empty-lines": 0,
 
     "shorthand-property-no-redundant-values": true,

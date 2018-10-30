@@ -1,12 +1,12 @@
 module.exports = {
-	"rules": {
-		"color-hex-case": "lower",
-		"color-hex-length": "short",
-		"color-no-invalid-hex": true,
+  "rules": {
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "color-no-invalid-hex": true,
 
-		"number-leading-zero": "never",
-		"number-max-precision": 2,
-		"number-no-trailing-zeros": true,
+    "number-leading-zero": "never",
+    "number-max-precision": 2,
+    "number-no-trailing-zeros": true,
 
     "string-quotes": "single",
 
@@ -35,18 +35,18 @@ module.exports = {
     "declaration-block-semicolon-newline-after": "always",
     "declaration-block-trailing-semicolon": "always",
 
-		"block-closing-brace-newline-after": "always",
-		"block-closing-brace-newline-before": "always",
-		"block-opening-brace-newline-after": "always",
-		"block-opening-brace-newline-before": "always",
-		"block-no-empty": true,
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "block-opening-brace-newline-after": "always",
+    "block-opening-brace-newline-before": "always",
+    "block-no-empty": true,
 
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
     "selector-attribute-quotes": "always",
-		"selector-combinator-space-after": "always",
-		"selector-combinator-space-before": "always",
+    "selector-combinator-space-after": "always",
+    "selector-combinator-space-before": "always",
     "selector-descendant-combinator-no-non-space": true,
     "selector-max-id": 0,
     "selector-max-universal": 0,
@@ -56,7 +56,7 @@ module.exports = {
     "selector-pseudo-element-no-unknown": true,
     "selector-type-no-unknown": true,
 
-		"selector-list-comma-newline-after": "always",
+    "selector-list-comma-newline-after": "always",
 
     "rule-empty-line-before": ["always", { "except": "first-nested" }],
 
@@ -73,5 +73,5 @@ module.exports = {
     "max-line-length": 80,
     "no-extra-semicolons": true,
     "no-missing-end-of-source-newline": true
-	}
+  }
 };
